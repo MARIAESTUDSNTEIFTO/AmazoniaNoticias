@@ -13,13 +13,22 @@
 }
 
 .noticias,
-  .noticia-2 {
-    width: calc(55% - 10px); /* 50% com espaço entre as colunas */
+  .noticia-2, .noticia-3{
+    width: calc(10%); /* 50% com espaço entre as colunas */
   }
 
   .noticia-2 {
     bottom: 12px;
     order: 2; /* Definir a ordem para 3 para aparecer por último */
+}
+.noticia-3{
+    order: 3;
+    right: 0px;
+}
+
+.noticia-3 .noticia-imagem{
+    right: 0px;
+
 }
 
   .noticia-2 img {
@@ -201,6 +210,8 @@ figure:hover {
 h1{
     color: #fff;
 }
+
+
 </style>
 <body>
     <header>
@@ -231,6 +242,16 @@ h1{
             <div class="div-noticias">
                 <li>
                     <a href="https://cartaamazonia.com.br/filme-dirigido-por-cineasta-yanomami-pode-representar-o-brasil-no-oscar/">Filme dirigido por cineasta Yanomami pode representar o Brasil no Oscar</a>
+                </li>
+            </div>
+            <div class="div-noticias">
+                <li>
+                    <a href="https://teiadospovos.org/formacao-de-construtores-e-defensores-de-territorios-da-teia-dos-povos-e-iniciada/">Formação de Construtores e Defensores de Territórios da Teia dos Povos é iniciada</a>
+                </li>
+            </div>
+            <div class="div-noticias">
+                <li>
+                    <a href="https://oeco.org.br/colunas/o-enfrentamento-da-colonialidade-pelo-jornalismo-ambiental/">O enfrentamento da colonialidade pelo jornalismo ambiental</a>
                 </li>
             </div>
         </ul>
@@ -295,7 +316,24 @@ h1{
                 </div>
             </div>
         </figure>
+        <figure>
+            <div class="noticia-imagem">
+                <img src="https://amazoniareal.com.br/wp-content/uploads/2024/01/SECA-RIO-NEGRO-IGARAPE-EDUCANDOS.jpg.webp" width="150" alt="Notícia 2" onclick="window.location.href='https://amazoniareal.com.br/ecossistemas-ameacados-4/';">
+                <div class="descricao-noticia">
+                    <figcaption>A seca histórica no Amazonas confirma o descaso das autoridades públicas sobre qualquer efeito das mudanças climáticas.</figcaption>
+                </div>
+            </div>
+        </figure>
+        <figure>
+            <div class="noticia-imagem">
+                <img src="https://www.socioambiental.org/sites/default/files/styles/large/public/2024-01/RS132110_IV_FORUM_YANOMAMI_MATURACA-372-lpr.jpg?itok=cMbDLr7Q" width="150" alt="Notícia 2" onclick="window.location.href='https://www.socioambiental.org/noticias-socioambientais/associacoes-yanomami-apontam-persistencia-de-garimpeiros-e-estrangulamento';">
+                <div class="descricao-noticia">
+                    <figcaption>A seca histórica no Amazonas confirma o descaso das autoridades públicas sobre qualquer efeito das mudanças climáticas.</figcaption>
+                </div>
+            </div>
+        </figure>
     </section>
+
     <section class="noticia-2">
         <figure>
           <div class="noticia-imagem">
@@ -314,7 +352,23 @@ h1{
               </div>
           </div>
       </figure>
-      </section>
+      <figure>
+        <div class="noticia-imagem">
+            <img src="https://i0.wp.com/oeco.org.br/wp-content/uploads/2024/01/Quilombo-Pixaim-AL-Foto-de-Ellen-Nemitz-_-_DSC0282.jpg?w=1920&ssl=1" width="150" alt="Notícia 2" onclick="window.location.href='https://oeco.org.br/reportagens/o-sol-e-para-todos-e-assim-a-luz-chega-em-comunidades-isoladas/';">
+            <div class="descricao-noticia">
+                <figcaption>O sol é para todos, e assim a luz chega em comunidades isoladas</figcaption>
+            </div>
+        </div>
+    </figure>
+    <figure>
+        <div class="noticia-imagem">
+            <img src="https://sumauma.com/wp-content/uploads/2024/01/02_mulheresarqueologia-1920x847.jpg" width="150" alt="Notícia 2" onclick="window.location.href='https://sumauma.com/como-tres-mulheres-impediram-sitios-arqueologicos-da-amazonia-de-virarem-pasto/';">
+            <div class="descricao-noticia">
+                <figcaption>Como três mulheres impediram sítios arqueológicos da Amazônia de virarem pasto</figcaption>
+            </div>
+        </div>
+    </figure>
+    </section>
 </main>
 <footer>
     <p>Copyright &copy; 2024 Notícias da Amazônia</p>
