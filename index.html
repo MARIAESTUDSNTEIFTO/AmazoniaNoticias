@@ -42,9 +42,10 @@ header nav h1{
 
 
 header img{
-    width: 30px;
+    width: 35px;
     float: left;
-    top: 12px;
+    margin: 20px;
+    justify-content: center;
 }
 
 main {
@@ -76,13 +77,13 @@ main {
     top: 0;
     right: -10px; /* Adicionei um valor negativo para que a barra lateral inicialmente não seja visível */
     bottom: 0;
-    width: 10px; /* Largura inicial da barra lateral */
-    background-color:bisque;
+    width: 7px; /* Largura inicial da barra lateral */
+    background-color:gray;
     transition: width 0.3s ease-out; /* Adiciona a transição aqui */
 }
 
 .noticias-rapidas li:hover::after {
-    width: 32px; /* Largura aumentada ao passar o mouse */
+    width: 10px; /* Largura aumentada ao passar o mouse */
 }
 
 .descricao-noticia{
@@ -197,39 +198,39 @@ figure:hover {
     float: right;
     margin: 5px;
 }
+h1{
+    color: #fff;
+}
 </style>
 <body>
-  <header>
-    <nav>
-        <ul>
-            <h1>Notícias da Amazônia</h1>
-            <a href="#">
-                <img src="./Imagens/imagemsite2.jpg" alt="Imagem Identidade do Site">
-            </a>
-        </ul>
-    </nav>
-</header>
-<header class="redes-sociais">
-    <img src="./Imagens/instagram.png" width="40" alt="Instagram" onclick="window.location.href='https://ovaradouro.com.br/secas-e-enchentes/';">
-    <img src="./Imagens/sinal-do-twitter.png" width="40" alt="X" onclick="window.location.href='https://ovaradouro.com.br/secas-e-enchentes/';">
-</header>
+    <header>
+        <div class="logo">
+            <img src="./Imagens/imagemsite2.jpg" alt="Imagem Identidade do Site" onclick="window.location.href='#'">
+        </div>
+        <h1>Notícias da Amazônia</h1>
+        <nav class="redes-sociais">
+            <img src="./Imagens/instagram.png" width="40" alt="Instagram" onclick="window.location.href='#';">
+            <img src="./Imagens/sinal-do-twitter.png" width="40" alt="X" onclick="window.location.href='#';">
+        </nav>
+    </header>
+    
 <main>
     <section class="noticias-rapidas">
         <h2>Notícias rápidas</h2>
         <ul>
             <div class="div-noticias">
                 <li>
-                    <a href="#">Brasil apoia denúncia da África do Sul contra Israel por genocídio</a>
+                    <a href="https://sumauma.com/o-novo-truque-dos-madeireiros-para-desmatar-a-amazonia/">O novo truque dos madeireiros para desmatar a Amazônia</a>
                 </li>
             </div>
             <div class="div-noticias">
                 <li>
-                    <a href="#">Qual notícia você quer ver em 2024?</a>
+                    <a href="https://amazoniareal.com.br/moda-indigena-da-amazonia/">Estilistas indígenas conquistam espaço na moda</a>
                 </li>
             </div>
             <div class="div-noticias">
                 <li>
-                    <a href="#">Equador: saiba o balanço de prisões, mortes e apreensões do conflito interno de 2024</a>
+                    <a href="https://cartaamazonia.com.br/filme-dirigido-por-cineasta-yanomami-pode-representar-o-brasil-no-oscar/">Filme dirigido por cineasta Yanomami pode representar o Brasil no Oscar</a>
                 </li>
             </div>
         </ul>
@@ -298,10 +299,9 @@ figure:hover {
     <section class="noticia-2">
         <figure>
           <div class="noticia-imagem">
-            <img src="https://alente.com.br/wp-content/uploads/2023/07/DJI_0146-scaled-e1695387085803-2048x1030.jpg" width="150" alt="Notícia 3" onclick="window.location.href='https://alente.com.br/2023/09/22/dados-ineditos-mostram-que-os-nove-paises-amazonicos-perderam-um-milhao-de-hectares-de-superficie-de-agua-na-ultima-decada/';">
+            <img src="https://cartaamazonia.com.br/wp-content/uploads/2023/12/RESEX-JACI-PARANA-FOTO-CRHISTIAN-BRAGA-GREENPEACE-6-1536x1024-1-980x653.jpg" width="150" alt="Notícia 3" onclick="window.location.href='https://cartaamazonia.com.br/acoes-judiciais-ligam-jbs-a-destruicao-de-resex-mais-desmatada-da-amazonia/';">
             <div class="descricao-noticia">
-              <figcaption>Dados inéditos mostram que os nove países amazônicos perderam um milhão de hectares de superfície de
-                água na última década</figcaption>
+              <figcaption>Ações judiciais ligam JBS à destruição de Resex mais desmatada da Amazônia</figcaption>
             </div>
           </div>
         </figure>
